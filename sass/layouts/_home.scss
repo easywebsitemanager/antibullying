@@ -1,0 +1,33 @@
+/* HOMEPAGE SECTION */
+.home {
+  .page-title {
+    display: none;
+  }
+  .page-summary {
+    
+    p {
+      font-size: 200%;
+      line-height: 1.5em;
+      font-weight: 600;
+      color: $color-black;
+    }
+    .button {
+      border-radius: 3px;
+      background-color: #379583;
+      color: $color-white;
+      border: none;
+      
+      &:hover {
+        background-color: #535354;
+      }
+    }
+  }
+}
+
+.intro-container {
+  .intro-special {
+    .wp-custom-header:before {
+      opacity: 0;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+/* PAGE SPEAKER SECTION */
+.page-id-381 {
+  .bio-title {
+  	font-size: 140%;
+  	margin-bottom: 10px;
+
+  	a {
+	    color: $color-black;
+	    text-decoration: none;
+	    
+	    &:hover {
+	      text-decoration: underline $color-secondary;
+	    }
+	  }
+  }
+  .bio-sub {
+  	font-style: italic;
+  }
+}

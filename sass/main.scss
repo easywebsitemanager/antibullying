@@ -1,0 +1,104 @@
+@import "common/variables.scss";
+@import "common/general";
+
+/** Import theme styles */
+@import "layouts/header";
+@import "layouts/home";
+@import "layouts/pages";
+@import "layouts/footer";
+
+/** Responsive theme styles */
+@import "layouts/responsive";
+
+.page-layout-outdented:not(.content-layout-no-paddings) .entry-content-inner {
+  padding-left: 0px !important;
+}
+
+/* HEADER SECTION */
+.site-header {
+  .site-branding {
+    margin: 0 auto;
+    display: inline-block;
+    clear: both;
+  }
+  .social-links { display: none !important; }
+  .site-header-inner > nav {
+    margin: 0 auto !important;
+    display: inline-block;
+    clear: both;
+  }
+}
+.header-layout-fullwidth .site-header-inner { width: 100% !important; max-width: 1255px !important; }
+
+/* CONTENT SECTION */
+.site-content-inner {
+  padding: 0px !important;
+}
+
+.intro-widgets-container {
+  background-color: $color-white;
+  
+  [id*="text-"] {
+    padding-top: 2em;
+  }
+  #text-6, #text-7, #text-8 {
+    display: none !important;
+  }
+  .widget-title, .intro-title, p  {
+    color: $color-black;
+  }
+  .intro-title {
+    font-size: 200%;
+  }
+}
+
+.quick-link {
+  h4 {
+    text-transform: uppercase;
+  }
+  ul {
+    margin-right: 2em !important;
+  }
+}
+
+ul.arrow-right {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  
+  li {
+    padding: .5em 0 .5em 2em;
+    
+    &:before {
+      content: "\f061"; /* FontAwesome Unicode */
+      font-family: FontAwesome;
+      display: inline-block;
+      margin-left: -2em; /* same as padding-left set on li */
+      width: 2em; /* same as padding-left set on li */
+    }
+  }
+}
+
+ul.chevron-right {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  
+  li {
+    padding: .5em 0 .5em 2em;
+    
+    &:before {
+      content: "\f054"; /* FontAwesome Unicode */
+      font-family: FontAwesome;
+      display: inline-block;
+      margin-left: -2em; /* same as padding-left set on li */
+      width: 2em; /* same as padding-left set on li */
+    }
+  }
+}
+
+.intro-title {
+  line-height: 1.19 !important;
+  font-weight: 700 !important;
+  margin: 0 !important;
+}

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+
+html, body, p, a, span, .site .font-headings, .site .font-headings-primary, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.wpcf7 {
+  input[type="text"], input[type="email"] {
+    width: 100%;
+  }
+}
+
+.site, .site-content, .set-colors-content, .set-colors-content > .fl-row-content-wrap, .set-colors-content > .fl-col-content,
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+	color: #000 !important;
+}

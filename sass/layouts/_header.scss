@@ -1,0 +1,17 @@
+.left-logo {
+	position: absolute;
+	display: block;
+	left: 30px;
+	@media screen and (max-width: 768px) {
+		position: relative;
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		left: 0;
+	}
+
+	img {
+		max-height: 100px;
+		width: auto;
+	}
+}

@@ -1,0 +1,41 @@
+/* Responsive */
+@media screen and (max-width: 1366px) {}
+@media screen and (max-width: 1280px) {}
+@media screen and (max-width: 1250px) {}
+@media screen and (max-width: 1240px) {}
+@media screen and (max-width: 1190px) {}
+@media screen and (max-width: 1120px) {}
+@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 991px) {}
+@media screen and (max-width: 960px) {}
+@media screen and (max-width: 800px) {}
+@media screen and (max-width: 768px) {
+	.site-header {
+		ul.menu-primary {
+			padding-top: 50px !important;
+		}
+		.shop-mobile-menu-links, .mobile-search-form.mobile-search-products-form {
+			display: none !important;
+		}
+	}
+	.site-content {
+		.page-title {
+			text-align: center;
+		}
+	}
+	.site-footer {
+		.site-info {
+			text-align: center;
+		}
+	}
+}
+@media screen and (max-width: 667px) {}
+@media screen and (max-width: 640px) {}
+@media screen and (max-width: 600px) {}
+@media screen and (max-width: 480px) {}
+@media screen and (max-width: 470px) {}
+@media screen and (max-width: 420px) {}
+@media screen and (max-width: 414px) {}
+@media screen and (max-width: 400px) {}
+@media screen and (max-width: 375px) {}
+@media screen and (max-width: 320px) {}
